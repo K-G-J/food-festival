@@ -6,42 +6,26 @@
   "scripts": {
     "webpack": "webpack --watch",
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "webpack-dev-server"
+    "start:dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^3.2.0",
     "image-webpack-loader": "^6.0.0",
     "webpack": "^4.32.2",
     "webpack-bundle-analyzer": "^3.6.0",
-<<<<<<< HEAD
-    "webpack-cli": "^3.3.12"
-=======
-    "webpack-cli": "^4.9.2"
->>>>>>> develop
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
-    "@webpack-cli/serve": "^1.6.1",
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
-<<<<<<< HEAD
-    "popper.js": "^1.16.0"
-  }
-=======
     "popper.js": "^1.16.0",
-    "webpack-dev-server": "^4.8.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/K-G-J/food-festival.git"
-  },
-  "bugs": {
-    "url": "https://github.com/K-G-J/food-festival/issues"
-  },
-  "homepage": "https://github.com/K-G-J/food-festival#readme",
-  "description": ""
->>>>>>> develop
+    "sw-precache-webpack-plugin": "^0.11.5",
+    "webpack-pwa-manifest": "^4.1.1"
+  }
 }
