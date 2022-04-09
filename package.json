@@ -17,11 +17,31 @@
     "image-webpack-loader": "^6.0.0",
     "webpack": "^4.32.2",
     "webpack-bundle-analyzer": "^3.6.0",
+<<<<<<< HEAD
     "webpack-cli": "^3.3.12"
+=======
+    "webpack-cli": "^4.9.2"
+>>>>>>> develop
   },
   "dependencies": {
+    "@webpack-cli/serve": "^1.6.1",
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
+<<<<<<< HEAD
     "popper.js": "^1.16.0"
   }
+=======
+    "popper.js": "^1.16.0",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K-G-J/food-festival.git"
+  },
+  "bugs": {
+    "url": "https://github.com/K-G-J/food-festival/issues"
+  },
+  "homepage": "https://github.com/K-G-J/food-festival#readme",
+  "description": ""
+>>>>>>> develop
 }
